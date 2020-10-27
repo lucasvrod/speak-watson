@@ -56,8 +56,8 @@ app.get('/ouvircomentario/:id', (req, res) => {
         const TextToSpeechV1 = require('ibm-watson/text-to-speech/v1');
         const { IamAuthenticator } = require('ibm-watson/auth');
         const textToSpeech = new TextToSpeechV1({
-            authenticator: new IamAuthenticator({ apikey: 'VewaTYf7Ez760L4rXENRplvTlORi4a0zF4TLPa1kjyfW' }),
-            url: 'https://api.us-east.text-to-speech.watson.cloud.ibm.com/instances/85e6d5db-e78e-4bf9-8172-a388eb77e033'
+            authenticator: new IamAuthenticator({ apikey: 'YourApiKeyHere' }),
+            url: 'YourUrlKeyHere'
         });
         const params = {
             text: texto,
