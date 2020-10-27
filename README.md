@@ -8,7 +8,7 @@ The idea is a simple screen divided into 2 panels, where on the left it is possi
 <img src="tela02.png" alt="App with data"/>
 </p> 
 <p align="center">
-<img src="tela03.mp4" alt="Sneak peak of the app running"/>
+<img src="https://media.giphy.com/media/UkPyyHXei9NiPTdZzF/giphy.gif" alt="sneak peek" />
 </p> 
 
 ### The database configs
